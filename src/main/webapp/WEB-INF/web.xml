@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         
+     <servlet>
+    	<servlet-name>victoryInsert</servlet-name>
+    	<servlet-class>com.victory.VictoryInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>victoryInsert</servlet-name>
+    	<url-pattern>/victoryInsert</url-pattern>
+    </servlet-mapping>     
+    
+    <servlet>
+	     <servlet-name>victoryUpdate</servlet-name>
+	     <servlet-class>com.victory.VictoryUpdateServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+        <servlet-name>victoryUpdate</servlet-name>
+        <url-pattern>/victoryUpdate</url-pattern>
+  	</servlet-mapping>
+  
+  	<servlet>
+	     <servlet-name>victoryDelete</servlet-name>
+	    <servlet-class>com.victory.VictoryDeleteServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+        <servlet-name>victoryDelete</servlet-name>
+        <url-pattern>/victoryDelete</url-pattern>
+  	</servlet-mapping>
+         
+    <servlet>
+	     <servlet-name>victorySearch</servlet-name>
+	    <servlet-class>com.victory.VictorySearchServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+        <servlet-name>victorySearch</servlet-name>
+        <url-pattern>/VictorySearch</url-pattern>
+ 	 </servlet-mapping>
+  
+      <servlet>
+	     <servlet-name>victoryReport</servlet-name>
+	    <servlet-class>com.victory.VictoryReportServlet</servlet-class>
+  	</servlet>
+  
+ 	 <servlet-mapping>
+        <servlet-name>victoryReport</servlet-name>
+        <url-pattern>/VictoryReport</url-pattern>
+ 	 </servlet-mapping>
+ 	 
+ 	  <servlet>
+    	<servlet-name>memberinsert</servlet-name>
+    	<servlet-class>com.member.MemberInsert</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>memberinsert</servlet-name>
+    	<url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+    	<servlet-name>updatemember</servlet-name>
+    	<servlet-class>com.member.UpdateMemberServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>updatemember</servlet-name>
+    	<url-pattern>/update</url-pattern>
+    </servlet-mapping>
+    
+    	<servlet>
+    	<servlet-name>searchview</servlet-name>
+    	<servlet-class>com.member.Search</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>searchview</servlet-name>
+    	<url-pattern>/memberSearch</url-pattern>
+    </servlet-mapping>
+ 	 
+ 	 
+ 	 <servlet>
+    	<servlet-name>petInsert</servlet-name>
+    	<servlet-class>com.pet.petInsert</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>petInsert</servlet-name>
+    	<url-pattern>/petinsert</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+    	<servlet-name>updatePet</servlet-name>
+    	<servlet-class>com.pet.updatePetServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>updatePet</servlet-name>
+    	<url-pattern>/petupdate</url-pattern>
+    </servlet-mapping>
+    
+    	<servlet>
+    	<servlet-name>petSearchView</servlet-name>
+    	<servlet-class>com.pet.petSearch</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>petSearchView</servlet-name>
+    	<url-pattern>/petsearch</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+    	<servlet-name>stockinsert</servlet-name>
+    	<servlet-class>com.stock.stockinsert</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>stockinsert</servlet-name>
+    	<url-pattern>/stockinsert</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+    	<servlet-name>updatestock</servlet-name>
+    	<servlet-class>com.stock.stockupdateservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>updatestock</servlet-name>
+    	<url-pattern>/stockupdate</url-pattern>
+    </servlet-mapping>
+    
+
+
+    
+     
+ </web-app>
