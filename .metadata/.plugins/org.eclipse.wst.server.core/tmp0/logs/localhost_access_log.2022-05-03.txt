@@ -1,0 +1,15 @@
+127.0.0.1 - - [03/May/2022:17:08:06 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/May/2022:17:08:08 +0530] "GET /HappyTailsVictoryLogs/VictoryViewAll.jsp HTTP/1.1" 200 5719
+127.0.0.1 - - [03/May/2022:17:08:15 +0530] "GET /HappyTailsVictoryLogs/VictoryViewAll.jsp HTTP/1.1" 200 5719
+127.0.0.1 - - [03/May/2022:17:08:15 +0530] "GET /HappyTailsVictoryLogs/victoryCss/victory.css HTTP/1.1" 200 920
+127.0.0.1 - - [03/May/2022:17:08:15 +0530] "GET /HappyTailsVictoryLogs/victoryCss/styles.css HTTP/1.1" 200 1125
+127.0.0.1 - - [03/May/2022:17:08:18 +0530] "GET /HappyTailsVictoryLogs/view.jsp HTTP/1.1" 200 3877
+127.0.0.1 - - [03/May/2022:17:08:18 +0530] "GET /HappyTailsVictoryLogs/css/styles.css HTTP/1.1" 200 1125
+127.0.0.1 - - [03/May/2022:17:08:18 +0530] "GET /HappyTailsVictoryLogs/css/header.css HTTP/1.1" 200 171
+127.0.0.1 - - [03/May/2022:17:08:18 +0530] "GET /HappyTailsVictoryLogs/css/footer.css HTTP/1.1" 404 795
+127.0.0.1 - - [03/May/2022:17:08:18 +0530] "GET /HappyTailsVictoryLogs/css/view.css HTTP/1.1" 200 852
+127.0.0.1 - - [03/May/2022:17:08:20 +0530] "GET /HappyTailsVictoryLogs/viewPet.jsp HTTP/1.1" 200 2488
+127.0.0.1 - - [03/May/2022:17:08:20 +0530] "GET /HappyTailsVictoryLogs/css/footer.css HTTP/1.1" 404 795
+127.0.0.1 - - [03/May/2022:17:08:22 +0530] "GET /HappyTailsVictoryLogs/VictoryViewAll.jsp HTTP/1.1" 200 5719
+127.0.0.1 - - [03/May/2022:17:09:06 +0530] "GET /HappyTailsVictoryLogs/VictoryUpdate.jsp?vlid=27 HTTP/1.1" 200 3669
+127.0.0.1 - - [03/May/2022:17:09:14 +0530] "POST /HappyTailsVictoryLogs/victoryUpdate HTTP/1.1" 200 5719
